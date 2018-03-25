@@ -27,7 +27,7 @@ WIN_COMBINATIONS = [
       end
     end
 
-  if false 
+  if false
     break
   end
   
@@ -46,4 +46,3 @@ WIN_COMBINATIONS = [
       false
     end
   end
-
