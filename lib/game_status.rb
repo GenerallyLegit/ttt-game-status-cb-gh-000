@@ -18,14 +18,14 @@ WIN_COMBINATIONS = [
 
  def won?(board)
    WIN_COMBINATIONS.each do |win_combination|
-     win_indexes = [win_combination[0], [win_combination[1], win_combination[2]]
+     win_indexes = [win_combination[0], win_combination[1], win_combination[2]]
 
    win_indexes.each do |position|
       if position_taken?(board, position) == false
         return false
         break
       end
-      
+
      win_index_1 = win_combination[0]
      win_index_2 = win_combination[1]
      win_index_3 = win_combination[2]
